@@ -105,7 +105,7 @@ You'll notice that it prints the entire response out all at once. That's *way* t
 1. Print out just the first item in the entire response.
 
 2. Print out just the question of the first item in the entire response. 
->> You might notice that each of the dictionary keys has the letter u in front of it - this just means the string that follows is represented in Unicode, and it won't affect your code in any way today. You can igore the u.
+> You might notice that each of the dictionary keys has the letter u in front of it - this just means the string that follows is represented in Unicode, and it won't affect your code in any way today. You can igore the u.
 
 3. Refactor your code so that it prints out a random question, not just the first one every time.
 
