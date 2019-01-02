@@ -31,9 +31,17 @@ In order for this game to work, we will need a few things:
 
 To install Requests, type the following into the console:
 ```bash
-curl https://bootstrap.pypa.io/get-pip.py | python3
 pip install requests
 ```
+
+<details>
+<summary>If that worked, great! Skip this next step. If it failed, click here to get an alternative installation method:</summary>
+```bash
+sudo curl https://bootstrap.pypa.io/get-pip.py | python3
+sudo pip install requests
+```
+</details>
+
 
 We also need to tell the python program to actually USE the library we just installed. That's why line 1 of 'jeopardy.py' looks like this:
 ```Ruby
