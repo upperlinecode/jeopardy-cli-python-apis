@@ -13,9 +13,9 @@ Then, we're going to write a program to ask those questions to a user and tell t
 <details>
   <summary> Click for more detail</summary>
 
-  We've spent all day learning about data structures, and we've come up with a lot of ways to use them to make our code more efficient, but dictionaries and lists are hugely important because almost all data sent back and forth through the internet is sent packaged and organized in a dictionary; even if it's called other things, would not a dictionary - by any other name - be just as 1337?
+  We've spent all day learning about data structures, and we've come up with a lot of ways to use them to make our code more efficient, but dictionaries and lists are hugely important because almost all data sent back and forth through the internet is sent packaged and organized in a structure that very closely matches a dictionary, though it is often referred to by other names.
 
-  Web applications typically do this through something called an application program interface - an API for short.
+  Web applications typically relay this information through something called an application program interface - an API for short.
 
 </details>
 <br>
