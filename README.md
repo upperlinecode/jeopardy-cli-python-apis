@@ -36,10 +36,7 @@ pip install requests
 
 <details>
 <summary>If that worked, great! Skip this next step. If it failed, click here to get an alternative installation method:</summary>
-```bash
-sudo curl https://bootstrap.pypa.io/get-pip.py | python3
-sudo pip install requests
-```
+`sudo curl https://bootstrap.pypa.io/get-pip.py | python3` and then `sudo pip install requests`
 </details>
 
 
