@@ -36,7 +36,7 @@ pip install requests
 
 <details>
 <summary>If that worked, great! Skip this next step. If it failed, click here to get an alternative installation method:</summary>
-  <code> 
+  <code style="display: block; white-space: pre-wrap;"> 
     curl https://bootstrap.pypa.io/get-pip.py | python3
     sudo pip install requests
   </code>
