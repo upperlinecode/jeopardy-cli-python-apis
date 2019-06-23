@@ -20,6 +20,8 @@ Then, we're going to write a program to ask those questions to a user and tell t
 </details>
 <br>
 
+**Note that this is a STRETCH lab, which means that most students will not start it at all, and those who do are only expected to get through level 1 in the time allotted.**
+
 ## Environment Setup
 
 In order for this game to work, we will need a few things:
@@ -29,9 +31,11 @@ In order for this game to work, we will need a few things:
 
 #### Install a URL handler
 
+**This is pre-installed on cs50. If you're using cs50, skip this step.**
+
 To install Requests, type the following into the console:
 ```bash
-pip install requests
+pip install --user requests
 ```
 
 <details>
