@@ -133,7 +133,7 @@ You'll notice that it prints the entire response out all at once. That's *way* t
 
 8. One of the most frustrating parts of this game is missing an answer due to typos, spelling errors, capitalization mismatches, or unexpected punctuation. Some of this is relatively easy to fix with Python's core methods, but there is no core function to show that "george" and "gorge" are SO CLOSE that the user probably actually knew the answer.
     * There's a library called [similar-text](https://pypi.org/project/similar_text/) that will let us examine how similar two strings are.
-    * Install that library, require it at the top of your program, and then look at the documentation to figure out how to use it.
+    * Install that library, import it at the top of your program, and then look at the documentation to figure out how to use it.
     * If the user's answer is really close to the real answer, let them know that they almost have it, but that they may want to type it more carefully.
     * It may also be beneficial to consider a way of recognizing that "Grapes of Wrath" and "The Grapes of Wrath" would be considered a mismatch. Are you going to give the user another chance if all they're missing is a small word like "the"?
 
