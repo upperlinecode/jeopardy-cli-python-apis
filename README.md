@@ -35,7 +35,7 @@ In order for this game to work, we will need a few things:
 
 To install Requests, type the following into the console:
 ```bash
-pip install --user requests
+pip install requests
 ```
 
 <details>
@@ -50,7 +50,7 @@ pip install --user requests
 
 
 We also need to tell the python program to actually USE the library we just installed. That's why line 1 of 'jeopardy.py' looks like this:
-```Ruby
+```Python
 import requests
 ```
 
