@@ -67,7 +67,7 @@ It looks pretty messy and hard to read, doesn't it?
 <details>
   <summary> Click to see a more readable version: </summary>
 
-  ![JSONview Example](JSONview.png "This is better, right?")
+  ![JSONview Example](https://raw.githubusercontent.com/upperlinecode/jeopardy-cli-python-apis/master/JSONview.png "This is better, right?")
 
   It looks like a mashup of lists and dictionaries!
 
@@ -78,7 +78,7 @@ This data structure is called a [JSON](https://www.w3schools.com/js/js_json_intr
 
 To make YOUR browser format it this way, you'll want to find a plugin that will do this. There are many options; the example used one for Chrome called JSONview. To install that one, just search for "JSONview" and navigate to the Chrome Web Store.
 
-![JSONview Install](JSONviewPlugin.png)
+![JSONview Install](https://raw.githubusercontent.com/upperlinecode/jeopardy-cli-python-apis/master/JSONviewPlugin.png)
 
 ###### Note: While it is possible to do this without JSONview or another JSON formatter, it's extremely difficult.
 
@@ -139,7 +139,7 @@ You'll notice that it prints the entire response out all at once. That's *way* t
     * If the user's answer is really close to the real answer, let them know that they almost have it, but that they may want to type it more carefully.
     * It may also be beneficial to consider a way of recognizing that "Grapes of Wrath" and "The Grapes of Wrath" would be considered a mismatch. Are you going to give the user another chance if all they're missing is a small word like "the"?
 
-![Jeopardy Board](jBoard.jpg)
+![Jeopardy Board](https://raw.githubusercontent.com/upperlinecode/jeopardy-cli-python-apis/master/jBoard.jpg)
 
 #### LEVEL 4
 
