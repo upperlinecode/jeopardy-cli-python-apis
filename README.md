@@ -1,5 +1,7 @@
 # Build a Command Line Quiz Game!
 
+[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/jeopardy-cli-python-apis)](https://repl.it/github/upperlinecode/jeopardy-cli-python-apis)
+
 #### The Goal
 
 We're going to build a CLI trivia game! When it's finished, it will look something like this:
