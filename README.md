@@ -37,7 +37,7 @@ In order for this game to work, we will need a few things:
 
 To install Requests, type the following into the console:
 ```bash
-pip install requests
+pip3 install requests
 ```
 
 <details>
@@ -47,7 +47,7 @@ pip install requests
   <div class="highlight highlight-source-shell"><pre>curl https://bootstrap.pypa.io/get-pip.py | python3</pre></div>
   <br>
   Then use pip to install requests:
-  <div class="highlight highlight-source-shell"><pre>sudo pip install requests</pre></div>
+  <div class="highlight highlight-source-shell"><pre>sudo pip3 install requests</pre></div>
 </details>
 
 
@@ -103,7 +103,7 @@ Feel free to change the category to whatever other category you choose. When you
 run the code as it is:
 
 ```bash
-python jeopardy.py
+python3 jeopardy.py
 ```
 
 You'll notice that it prints the entire response out all at once. That's *way* too much.  We'll go one step at a time and try to build this up as a fully functional and interactive game.
@@ -134,7 +134,7 @@ You'll notice that it prints the entire response out all at once. That's *way* t
 #### LEVEL 3
 
 8. One of the most frustrating parts of this game is missing an answer due to typos, spelling errors, capitalization mismatches, or unexpected punctuation. Some of this is relatively easy to fix with Python's core methods, but there is no core function to show that "george" and "gorge" are SO CLOSE that the user probably actually knew the answer.
-    * There's a library called [similar-text](https://pypi.org/project/similar_text/) that will let us examine how similar two strings are.
+    * There's a library called [similar-text](https://pypi.org/project/similar_text/) that will let us examine how similar two strings are. Remember that you'll need to install it, just like we did for requests. You'll want to look it up, but it might look something like `pip3 install similar_text`
     * Install that library, import it at the top of your program, and then look at the documentation to figure out how to use it.
     * If the user's answer is really close to the real answer, let them know that they almost have it, but that they may want to type it more carefully.
     * It may also be beneficial to consider a way of recognizing that "Grapes of Wrath" and "The Grapes of Wrath" would be considered a mismatch. Are you going to give the user another chance if all they're missing is a small word like "the"?
