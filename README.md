@@ -33,7 +33,7 @@ In order for this game to work, we will need a few things:
 
 #### Install a URL handler
 
-**This is pre-installed on cs50. If you're using cs50, skip this step.**
+**This is pre-installed on Replit. If you're using Replit, skip this step.**
 
 To install Requests, type the following into the console:
 ```bash
