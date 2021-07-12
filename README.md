@@ -6,7 +6,7 @@
 
 We're going to build a CLI trivia game! When it's finished, it will look something like this:
 
-<img src="https://github.com/upperlinecode/jeopardy-cli-python-apis/blob/master/jeopardyCLI.gif?raw=true" width="850">
+![Open on GitHub to see a preview of the Jeopardy game in action](https://github.com/upperlinecode/jeopardy-cli-python-apis/blob/main/jeopardyCLI.gif)
 
 We will use a url (those things we usually call 'links') to get random trivia questions!
 
