@@ -22,7 +22,7 @@ Then, we're going to write a program to ask those questions to a user and tell t
 </details>
 <br>
 
-**Note that this is a STRETCH lab, which means that most students will not start it at all, and those who do are only expected to get about halfway through level 1 in the time allotted.**
+**Note that this is a STRETCH lab, which means that most students will only get about halfway through level 1 in a normal lab block of time.**
 
 ## Environment Setup
 
